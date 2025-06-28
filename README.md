@@ -1,4 +1,4 @@
-# 🌤️ Weather Forecast App
+# 🌤️ Weather Forecast Application
 
 This is a modern weather forecast web application built with **ReactJS**, leveraging real-time weather data from the **OpenWeatherMap API**. The application supports **localization** to adapt to different languages and regions.
 

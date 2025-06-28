@@ -45,7 +45,7 @@ function App() {
   });
   useEffect(() => {
     settimeandDate(moment().format('MMMM Do YYYY, h:mm:ss a'));
-    axios.get("https://api.openweathermap.org/data/2.5/weather?q=Riyadh&appid=18912ebac911cc5539ee982d62a01c7b",
+    axios.get("https://api.openweathermap.org/data/2.5/weather?q=Cairo&appid=18912ebac911cc5539ee982d62a01c7b",
       {
         cancelToken: new axios.CancelToken((c) => {
           cancelAxios = c;
@@ -130,7 +130,7 @@ function App() {
                       fontWeight: "600",
                     }}
                   >
-                    {t("Riyadh")}
+                    {t("Cairo")}
                   </Typography>
 
                   <Typography
